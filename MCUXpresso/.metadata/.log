@@ -1,0 +1,910 @@
+!SESSION 2017-11-13 10:50:57.630 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-11-13 10:54:03.945
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-13 10:54:04.049
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-13 10:54:07.480
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Joe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-13 10:58:08.592
+!MESSAGE Indexed 'frdmkw41z_rtos_examples_freertos_hello' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.019
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.081
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.107
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.136
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.158
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.182
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.236
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.268
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 10:58:14.339
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_hello/CMSIS/cmsis_gcc.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-13 11:01:18.409
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_ble_shell_bm' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.739
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.805
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.833
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.868
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.906
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:21.946
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:22.015
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:22.076
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:22.140
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:28.219
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:28.417
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_bm/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-13 11:01:38.154
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.229
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.255
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.332
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.357
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.383
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.413
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.458
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.492
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:40.530
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:46.148
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-13 11:01:46.230
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+!SESSION 2017-11-13 12:11:56.712 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso
+
+!ENTRY org.eclipse.ui 4 4 2017-11-13 12:12:05.637
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-13 12:12:05.652
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-13 12:12:12.913
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Joe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY MCUXpresso IDE SDK import 4 -1 2017-11-13 12:42:03.352
+!MESSAGE The following items are not supported or not valid SDKs
+[C:\Users\Joe\Downloads\MCUXpresso\Kinetis SDK 1.3.0 Mainline - Windows.exe]
+!SESSION 2017-11-25 18:24:55.735 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-11-25 18:38:07.515
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-25 18:38:07.708
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-25 18:38:40.006
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Joe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-25 18:42:56.577
+!MESSAGE Indexed 'frdmkw41z_rtos_examples_freertos_lpuart' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.255
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.308
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.379
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.426
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.460
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.492
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.596
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.673
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-25 18:43:03.718
+!MESSAGE Overwriting file L/frdmkw41z_rtos_examples_freertos_lpuart/CMSIS/cmsis_gcc.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-25 18:44:15.414
+!MESSAGE Indexed 'lab02_lpuart' (26 sources, 66 headers) in 6.33 sec: 8,917 declarations; 22,150 references; 0 unresolved inclusions; 75 syntax errors; 62 unresolved names (0.2%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 20:33:30.177
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@1d35478): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 20:33:30.177
+!MESSAGE Interrupt failed.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 20:34:13.126
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart JLink Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 20:34:25.323
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 20:34:26.462
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.dsfdebug.ui.SuspendAllAction$1@9aa833): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 20:34:26.463
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 20:34:26.802
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@1a43c5b): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 20:34:26.802
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 20:36:58.244
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 20:54:26.153
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@3e4370): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 20:54:26.153
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 21:00:42.468
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@1d3ecc3): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 21:00:42.468
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 21:00:50.167
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 21:00:52.111
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.dsfdebug.ui.SuspendAllAction$1@122df6e): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 21:00:52.111
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 21:00:52.569
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@4d8985): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 21:00:52.570
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 21:01:24.887
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 22:01:32.569
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@1d09cff): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 22:01:32.570
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 22:01:33.050
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 22:01:34.987
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.dsfdebug.ui.SuspendAllAction$1@10d9439): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 22:01:34.987
+!MESSAGE Interrupt failed.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-11-25 22:01:35.517
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@c1cfc9): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-25 22:01:35.517
+!MESSAGE Interrupt failed.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 22:03:38.677
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 22:07:07.669
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 22:08:20.577
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 22:08:32.296
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-25 22:08:41.446
+!MESSAGE There is already a running debug session for the launch configuration 'lab02_lpuart Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-25 22:39:51.540
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-11-26 16:49:17.442 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-11-26 16:50:26.885
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-26 16:50:27.054
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-26 16:50:56.442
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Joe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 16:54:30.959
+!MESSAGE Indexed 'lab2_from_mbed' (3 sources, 177 headers) in 7.83 sec: 15,478 declarations; 17,003 references; 83 unresolved inclusions; 332 syntax errors; 6,821 unresolved names (17%)
+
+!ENTRY com.crt.advproject 4 -1 2017-11-26 16:57:11.960
+!MESSAGE Internal: Unable to get IProject CCProjectWizard2
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 16:57:19.245
+!MESSAGE Indexed 'lab2-from-mbed' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:05:01.044
+!MESSAGE Indexed 'lab2-from-mbed-code' (3 sources, 247 headers) in 12.1 sec: 17,749 declarations; 25,785 references; 1 unresolved inclusions; 81 syntax errors; 672 unresolved names (1.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:29:56.417
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.336
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.364
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.480
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.521
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.563
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.602
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.648
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.701
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:09.745
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:12.079
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:12.116
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_bm/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 17:30:19.138
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:27.841
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:27.884
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:27.922
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:27.963
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:27.998
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:28.037
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:28.081
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:28.129
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:28.179
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:30.602
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 17:30:30.678
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_heart_rate_sensor_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 17:34:47.419
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-11-26 19:35:17.966 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2017-11-26 19:51:55.215
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-11-26 19:51:55.318
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-26 19:52:29.394
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Joe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 19:53:20.987
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_beacon_freertos' (0 sources, 0 headers) in 0.006 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:28.566
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:28.719
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:32.967
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:32.997
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.025
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.055
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.081
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.107
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.147
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.183
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:33.250
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 19:53:37.448
+!MESSAGE Indexed 'frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:43.098
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:43.142
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.614
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.649
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.691
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.714
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.744
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.769
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.811
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.841
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 19:53:44.874
+!MESSAGE Overwriting file L/frdmkw41z_wireless_examples_bluetooth_alert_notification_server_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 20:24:21.441
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.log 4 -1 2017-11-26 20:41:17.676
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos
+	at com.crt.utils.general.Reporter.log(Reporter.java:603)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:364)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:727)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1463)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:113)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:389)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:201)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1186)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:193)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:135)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:156)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:456)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:205)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:885)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:846)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:840)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1389)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.save(SDKChipVendorDatabase.java:359)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/frdmkw41z_wireless_examples_bluetooth_ble_shell_freertos
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:63)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	... 21 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 20:42:39.885
+!MESSAGE Indexed 'fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:46.512
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:46.593
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/framework/OSAbstraction/Interface/fsl_os_abstraction_config.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.092
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmSimd.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.118
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmFunc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.144
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/core_cmInstr.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.170
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/arm_common_tables.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.192
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/arm_const_structs.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.242
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/arm_math.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.274
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.317
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_armcc_V6.h
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2017-11-26 20:42:50.349
+!MESSAGE Overwriting file L/fdrmkw41z_ble_observerwireless_examples_bluetooth_beacon_freertos/CMSIS/cmsis_gcc.h
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-11-26 20:43:30.587
+!MESSAGE Indexed 'fdrmkw41z_ble_observer' (87 sources, 162 headers) in 6.35 sec: 22,145 declarations; 64,186 references; 0 unresolved inclusions; 75 syntax errors; 162 unresolved names (0.19%)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 21:29:20.626
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2017-11-26 22:04:14.704
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:2339
+
+Error message from debugger back end:
+Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.nxp.mcuxpresso.core.debug.support.segger.launches.JLinkLaunchDelegate.launch(JLinkLaunchDelegate.java:124)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:940)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:769)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-26 22:04:14.771
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:2339
+
+Error message from debugger back end:
+Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+!STACK 0
+java.lang.Exception: Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:940)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:769)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2017-11-26 22:05:30.685
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:2339
+
+Error message from debugger back end:
+Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:228)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.nxp.mcuxpresso.core.debug.support.segger.launches.JLinkLaunchDelegate.launch(JLinkLaunchDelegate.java:124)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:940)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:769)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-11-26 22:05:30.685
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:2339
+
+Error message from debugger back end:
+Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+!STACK 0
+java.lang.Exception: Remote replied unexpectedly to 'vMustReplyEmpty': timeout
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:940)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:769)
+
+!ENTRY org.eclipse.cdt.make.core 4 0 2017-11-26 22:05:48.510
+!MESSAGE Error accessing scanner config file for project 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error accessing scanner config file for project 
+	at org.eclipse.cdt.make.internal.core.scannerconfig.DiscoveredScannerInfoStore.saveDiscoveredScannerInfoToState(DiscoveredScannerInfoStore.java:306)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.DiscoveredPathManager.updateDiscoveredInfo(DiscoveredPathManager.java:255)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.PerProjectSICollector.updateScannerConfiguration(PerProjectSICollector.java:231)
+	at com.crt.advproject.specs.CRTPerProjectSICollector.updateScannerConfiguration(CRTPerProjectSICollector.java:41)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.jobs.CfgSCJobsUtil$2.run(CfgSCJobsUtil.java:144)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:826)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.jobs.CfgSCJobsUtil.updateScannerConfiguration(CfgSCJobsUtil.java:155)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:210)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:154)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:120)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:403)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:551)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:529)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:112)
+	at com.crt.debugcommon.emulator.BuildUtils.buildProjects(BuildUtils.java:173)
+	at com.crt.debugcommon.emulator.BuildUtils.buildProject(BuildUtils.java:156)
+	at com.crt.debugcommon.emulator.BuildUtils.buildWithProgress(BuildUtils.java:262)
+	at com.crt.debugcommon.emulator.BuildUtils.access$1(BuildUtils.java:251)
+	at com.crt.debugcommon.emulator.BuildUtils$5.run(BuildUtils.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.io.FileNotFoundException: C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso\.metadata\.plugins\org.eclipse.cdt.make.core\fdrmkw41z_ble_observer.sc (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.DiscoveredScannerInfoStore.saveDiscoveredScannerInfoToState(DiscoveredScannerInfoStore.java:302)
+	... 29 more
+!SUBENTRY 1 org.eclipse.cdt.make.core 4 -1 2017-11-26 22:05:48.511
+!MESSAGE Error accessing scanner config file for project 
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso\.metadata\.plugins\org.eclipse.cdt.make.core\fdrmkw41z_ble_observer.sc (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.DiscoveredScannerInfoStore.saveDiscoveredScannerInfoToState(DiscoveredScannerInfoStore.java:302)
+	at org.eclipse.cdt.make.internal.core.scannerconfig.DiscoveredPathManager.updateDiscoveredInfo(DiscoveredPathManager.java:255)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.PerProjectSICollector.updateScannerConfiguration(PerProjectSICollector.java:231)
+	at com.crt.advproject.specs.CRTPerProjectSICollector.updateScannerConfiguration(CRTPerProjectSICollector.java:41)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.jobs.CfgSCJobsUtil$2.run(CfgSCJobsUtil.java:144)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:826)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.jobs.CfgSCJobsUtil.updateScannerConfiguration(CfgSCJobsUtil.java:155)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:210)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:154)
+	at org.eclipse.cdt.build.core.scannerconfig.ScannerConfigBuilder.build(ScannerConfigBuilder.java:120)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:403)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:551)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:529)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:112)
+	at com.crt.debugcommon.emulator.BuildUtils.buildProjects(BuildUtils.java:173)
+	at com.crt.debugcommon.emulator.BuildUtils.buildProject(BuildUtils.java:156)
+	at com.crt.debugcommon.emulator.BuildUtils.buildWithProgress(BuildUtils.java:262)
+	at com.crt.debugcommon.emulator.BuildUtils.access$1(BuildUtils.java:251)
+	at com.crt.debugcommon.emulator.BuildUtils$5.run(BuildUtils.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:06:36.204
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:07:48.564
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:11:07.814
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.crt.debugcommon 4 0 2017-11-26 22:16:28.737
+!MESSAGE There is already a running debug session for the launch configuration 'fdrmkw41z_ble_observer JLink Debug'.
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:16:34.795
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:19:06.017
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2017-11-26 22:21:02.592
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso\fdrmkw41z_ble_observer\Debug\fdrmkw41z_ble_observer.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.nxp.mcuxpresso.core.debug.support.segger.launches.JLinkLaunchDelegate.launch(JLinkLaunchDelegate.java:124)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2017-11-26 22:21:02.592
+!MESSAGE C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso\fdrmkw41z_ble_observer\Debug\fdrmkw41z_ble_observer.axf not found
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Joe\OneDrive - University of Southampton\Real-Time-Systems-Lab-2\MCUXpresso\fdrmkw41z_ble_observer\Debug\fdrmkw41z_ble_observer.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.nxp.mcuxpresso.core.debug.support.segger.launches.JLinkLaunchDelegate.launch(JLinkLaunchDelegate.java:124)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 22:31:51.845
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 23:00:12.535
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 23:02:36.462
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 23:04:48.226
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-11-26 23:09:11.760
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

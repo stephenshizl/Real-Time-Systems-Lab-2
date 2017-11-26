@@ -1,0 +1,6 @@
+17:09:01 **** Clean-only build of configuration Debug for project lab2-from-mbed-code ****
+make -r -j4 clean 
+make: *** No rule to make target `clean'.  Stop.
+
+17:09:01 Build Finished (took 465ms)
+

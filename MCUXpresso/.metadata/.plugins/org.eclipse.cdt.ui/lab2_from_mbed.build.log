@@ -1,0 +1,6 @@
+16:54:46 **** Build of configuration Default for project lab2_from_mbed ****
+make all 
+make.exe: *** No rule to make target `all'.  Stop.
+
+16:54:47 Build Finished (took 396ms)
+
