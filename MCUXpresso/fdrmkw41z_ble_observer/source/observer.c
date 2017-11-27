@@ -83,7 +83,7 @@
 static bleDeviceAddress_t maBleDeviceAddress;
 
 /* Adv Parmeters */
-bool_t      mAdvertisingOn = FALSE;
+//bool_t      mAdvertisingOn = FALSE;
 
 /************************************************************************************
 *************************************************************************************
@@ -92,9 +92,7 @@ bool_t      mAdvertisingOn = FALSE;
 ************************************************************************************/
 
 /* Gatt and Att callbacks */
-//static void BleApp_AdvertisingCallback (gapAdvertisingEvent_t* pAdvertisingEvent);
 static void BleApp_Config();
-//static void BleApp_Advertise(void);
 static void BleApp_ScanningCallback (gapScanningEvent_t* pScanningEvent);
 
 /************************************************************************************
@@ -118,9 +116,6 @@ void BleApp_Init(void)
     FLib_MemCopy32Unaligned(&ctx.buffer[12], 0);
      
     SHA1_Hash(&ctx, ctx.buffer, 16);
-    
-    /* Updated UUID value from advertising data with the hashed value */
-    //FLib_MemCpy(&gAppAdvertisingData.aAdStructures[1].aData[3], ctx.hash, 16);// commented out, probably not needed
 }
 
 /*! *********************************************************************************
@@ -181,11 +176,11 @@ void BleApp_GenericCallback (gapGenericEvent_t* pGenericEvent)
         }
         break;            
             
-        case gAdvertisingDataSetupComplete_c:
-        {            
-            BleApp_Start();
-        }
-        break;  
+//        case gAdvertisingDataSetupComplete_c:
+//        {
+//            BleApp_Start();
+//        }
+//        break;
         
         case gAdvertisingParametersSetupComplete_c:
         {
@@ -218,26 +213,13 @@ static void BleApp_Config()
 {
     /* Read public address from controller */
     Gap_ReadPublicDeviceAddress();
-    /* Setup Advertising and scanning data */
-    //Gap_SetAdvertisingData(&gAppAdvertisingData, NULL);
-    mAdvertisingOn = FALSE;
 }
 
-/*! *********************************************************************************
-* \brief        Configures GAP Advertise parameters. Advertise will satrt after
-*               the parameters are set.
-*
-********************************************************************************** */
-static void BleApp_Advertise(void)
-{
-    /* Set advertising parameters*/
-    //Gap_SetAdvertisingParameters((gapAdvertisingParameters_t*)&gAppAdvParams);
-}
 
 /*! *********************************************************************************
-* \brief        Handles BLE Advertising callback from host stack.
+* \brief        Handles BLE Scanning callback from host stack.
 *
-* \param[in]    pAdvertisingEvent    Pointer to gapAdvertisingEvent_t.
+* \param[in]    pScanningEvent    Pointer to gapScanningEvent_t.
 ********************************************************************************** */
 
 // Added, called when a scanning event happens
