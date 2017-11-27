@@ -148,6 +148,7 @@ void BleApp_HandleKeys(key_event_t events)
         case gKBD_EventPB1_c:
         {
             BleApp_Start();
+            Led1Flashing();
             break;
         }
         /*case gKBD_EventLongPB1_c:
@@ -247,18 +248,24 @@ static void BleApp_ScanningCallback (gapScanningEvent_t* pScanningEvent)
 		case gDeviceScanned_c: // if device is scanned
 		{
 			gapScannedDevice_t device = pScanningEvent->eventData.scannedDevice; // do something with this, whatever it is
-
 			int test = 0;
-			bleDeviceAddress_t beaconAddress[] = {0x0E, 0x21, 0x00, 0x2F, 0x62, 0x00};
-			if (device.aAddress == beaconAddress){
+			bleDeviceAddress_t beaconAddress = {0x0E, 0x21, 0x00, 0x2F, 0x62, 0x00};
+
+			if (Ble_DeviceAddressesMatch(device.aAddress, beaconAddress)){
 				test = 1;
+				LED_ToggleLed(LED3);
+
 			}
 			//LED_StartFlashWithPeriod(LED2, 500); // flash LED2
 
 			//TODO: filter out all BLE addresses apart from the one defined in the beacon
 			//TODO: work out what the data means
+//			LED_ToggleLed(LED2);
 
-			LED_ToggleLed(LED3);
+			// dirty hack to get past only single callback upon finding device
+			Gap_StopScanning();
+			gapScanningParameters_t scanningParameters = gGapDefaultScanningParameters_d;
+			Gap_StartScanning(&scanningParameters, BleApp_ScanningCallback);
 		}
 		case gScanStateChanged_c: // received when scanning is enabled or disabled
 		{

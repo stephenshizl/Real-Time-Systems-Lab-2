@@ -396,7 +396,7 @@ void main_task(uint32_t param)
         PWR_Init();
         PWR_DisallowDeviceToSleep();
 #else    
-        Led1Flashing(); // standalone red?
+        //Led1Flashing(); // standalone red?
         //Led2Flashing();
         //Led3Flashing();
         //Led4Flashing(); //RGB blue
