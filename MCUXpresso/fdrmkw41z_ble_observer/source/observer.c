@@ -250,10 +250,26 @@ static void BleApp_ScanningCallback (gapScanningEvent_t* pScanningEvent)
 			gapScannedDevice_t device = pScanningEvent->eventData.scannedDevice; // do something with this, whatever it is
 			int test = 0;
 			bleDeviceAddress_t beaconAddress = {0x0E, 0x21, 0x00, 0x2F, 0x62, 0x00};
-
+			uint8_t packetData[31];
 			if (Ble_DeviceAddressesMatch(device.aAddress, beaconAddress)){
 				test = 1;
-				LED_ToggleLed(LED3);
+				for(int i=0; i < device.dataLength; i++)
+				{
+					packetData[i] = *(device.data + i);
+				}
+				//either this if packet data updating is in use
+				if (packetData[29] == 0xFF) // last byte of data channel C from beacon
+				{
+					LED_TurnOnLed(LED3);
+				}
+				else if (packetData[29] == 0x01)
+				{
+					Led_TurnOff(LED3);
+				}
+				else if (packetData[29] == 0x00)
+				{
+					LED_ToggleLed(LED3);
+				}
 
 			}
 			//LED_StartFlashWithPeriod(LED2, 500); // flash LED2
@@ -266,10 +282,12 @@ static void BleApp_ScanningCallback (gapScanningEvent_t* pScanningEvent)
 			Gap_StopScanning();
 			gapScanningParameters_t scanningParameters = gGapDefaultScanningParameters_d;
 			Gap_StartScanning(&scanningParameters, BleApp_ScanningCallback);
+			break;
 		}
 		case gScanStateChanged_c: // received when scanning is enabled or disabled
 		{
 			//LED_StartFlashWithPeriod(LED3, 100); // flash LED2
+			break;
 		}
 	}
 }

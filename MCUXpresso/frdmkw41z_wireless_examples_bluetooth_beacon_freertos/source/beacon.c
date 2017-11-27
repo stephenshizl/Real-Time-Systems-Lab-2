@@ -142,15 +142,30 @@ void BleApp_HandleKeys(key_event_t events)
     {
         case gKBD_EventPB1_c:
         {
-            BleApp_Start();
-            break;
+        	Gap_SetAdvertisingData(&gAppAdvertisingData2, NULL);
+        	//mAdvertisingOn = FALSE;
+        	//Gap_StopAdvertising();
+        	//Gap_StartAdvertising(advertisingCallback, NULL);
+        	//App_StartAdvertising(BleApp_AdvertisingCallback, NULL);
+			//mAdvertisingOn= TRUE;
+        	//BleApp_Start();
+
+        	break;
         }
-        case gKBD_EventLongPB1_c:
+        case gKBD_EventPB2_c:
         {
+        	Gap_SetAdvertisingData(&gAppAdvertisingData3, NULL);
+        	//mAdvertisingOn = FALSE;
+        	//Gap_StopAdvertising();
+			//Gap_StartAdvertising(advertisingCallback, NULL);
+			//App_StartAdvertising(BleApp_AdvertisingCallback, NULL);
+			//mAdvertisingOn= TRUE;
+        	/*
             if (mAdvertisingOn)
             {
                 Gap_StopAdvertising();
             }
+            //*/
             break;
         }
     default:

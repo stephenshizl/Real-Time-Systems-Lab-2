@@ -51,6 +51,8 @@
 *************************************************************************************
 ********************************************************************************** */
 extern gapAdvertisingData_t     gAppAdvertisingData;
+extern gapAdvertisingData_t     gAppAdvertisingData2;
+extern gapAdvertisingData_t     gAppAdvertisingData3;
 extern const gapAdvertisingParameters_t gAppAdvParams;
 /************************************************************************************
 *************************************************************************************

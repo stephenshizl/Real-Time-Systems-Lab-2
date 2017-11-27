@@ -74,6 +74,7 @@ const gapAdvertisingParameters_t gAppAdvParams = {
 
 /* Advertising Data */
 static const uint8_t adData0[1] =  { (gapAdTypeFlags_t)(gLeGeneralDiscoverableMode_c | gBrEdrNotSupported_c) };
+//toggle LED
 static uint8_t adData1[26] = { 
                        /* Company Identifier*/ 
                        mAdvCompanyId,    
@@ -90,6 +91,41 @@ static uint8_t adData1[26] = {
                        /* RSSI at 1m */
                        0x1E};
 
+//turn led off
+static uint8_t adData2[26] = {
+                       /* Company Identifier*/
+                       mAdvCompanyId,
+                       /* Beacon Identifier */
+                       mBeaconId,
+                       /* UUID */
+                       mUuid,
+                       /* A */
+                       0x00, 0x00,
+                       /* B */
+                       0x00, 0x00,
+                       /* C */
+                       0x00, 0x01,
+                       /* RSSI at 1m */
+                       0x1E};
+
+//turn led on
+static uint8_t adData3[26] = {
+                       /* Company Identifier*/
+                       mAdvCompanyId,
+                       /* Beacon Identifier */
+                       mBeaconId,
+                       /* UUID */
+                       mUuid,
+                       /* A */
+                       0x00, 0x00,
+                       /* B */
+                       0x00, 0x00,
+                       /* C */
+                       0x00, 0xFF,
+                       /* RSSI at 1m */
+                       0x1E};
+
+//toggle led
 static const gapAdStructure_t advScanStruct[] = {
   {
     .length = NumberOfElements(adData0) + 1,
@@ -107,4 +143,44 @@ gapAdvertisingData_t gAppAdvertisingData =
 {
     NumberOfElements(advScanStruct),
     (void *)advScanStruct
+};
+
+//turn led off
+static const gapAdStructure_t advScanStruct2[] = {
+  {
+    .length = NumberOfElements(adData0) + 1,
+    .adType = gAdFlags_c,
+    .aData = (void *)adData0
+  },
+  {
+    .length = NumberOfElements(adData2) + 1,
+    .adType = gAdManufacturerSpecificData_c,
+    .aData = (void *)adData2
+  }
+};
+
+gapAdvertisingData_t gAppAdvertisingData2 =
+{
+    NumberOfElements(advScanStruct2),
+    (void *)advScanStruct2
+};
+
+//turn led on
+static const gapAdStructure_t advScanStruct3[] = {
+  {
+    .length = NumberOfElements(adData0) + 1,
+    .adType = gAdFlags_c,
+    .aData = (void *)adData0
+  },
+  {
+    .length = NumberOfElements(adData3) + 1,
+    .adType = gAdManufacturerSpecificData_c,
+    .aData = (void *)adData3
+  }
+};
+
+gapAdvertisingData_t gAppAdvertisingData3 =
+{
+    NumberOfElements(advScanStruct3),
+    (void *)advScanStruct3
 };
